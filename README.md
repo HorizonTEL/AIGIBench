@@ -7,6 +7,8 @@ This repository contains the AIGIBench dataset and the evaluated methods.
 
 If this project helps you, please fork, watch, and give a star to this repository.   
 
+![example](https://github.com/user-attachments/assets/36250270-6fc1-4919-8078-1865f80913c0)
+
 ## Dataset
 The training set and testing set used in the paper can be downloaded in [Huggingface](https://huggingface.co/datasets/HorizonTEL/AIGIBench).
 
