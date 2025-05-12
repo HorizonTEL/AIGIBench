@@ -5,9 +5,14 @@ This repository is the official repository of the AIGIBench.
 
 This repository contains the AIGIBench dataset and the evaluated methods.
 
-If this project helps you, please fork, watch, and give a star to this repository.   
+ AIGIBench dataset contains two types of training and 25 test subsets. This dataset has the following advantages:
+- Comprehensive generate types: including GAN-based Noise-to-Image Generation, Diffusion for Text-to-Image Generation, GANs for Deepfake, Diffusion for Personalized Generation, and Open-source Platforms.
+- State-of-the-art Generators: MidjourneyV6, Stable Diffusion 3, Imagen, DALLE3, InstantID, FaceSwap, StyleGAN-XL and so on.
+- Completely unknown generation method: Crawl pictures from communities and social media to build datasets CommunityAI & SocialRF, making detection more challenging.
 
 ![example](https://github.com/user-attachments/assets/36250270-6fc1-4919-8078-1865f80913c0)
+
+If this project helps you, please fork, watch, and give a star to this repository.  
 
 ## Dataset
 The training set and testing set used in the paper can be downloaded in [Huggingface](https://huggingface.co/datasets/HorizonTEL/AIGIBench).
