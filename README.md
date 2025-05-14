@@ -76,3 +76,17 @@ AIGIBench comprehensively tests the performance of the detector and builds a tes
 │   ├── SocialRF
 │   │   ├── ...
 ```
+## Detection Methods
+We use the official code for all detection codes and make unified modifications to the input and output. The code we use for training in Setting-II and the corresponding pre-trained weights are publicly available at XXX. The following is the corresponding detection code in the paper：
+- [ResNet-50](https://github.com/huggingface/pytorch-image-models/tree/v0.6.12/timm)
+- [CNNDetection](https://github.com/PeterWang512/CNNDetection)
+- [GramNet](https://github.com/liuzhengzhe/Global_Texture_Enhancement_for_Fake_Face_Detection_in_the-Wild)
+- [LGrad](https://github.com/chuangchuangtan/LGrad)
+- [CLIPDetection](https://github.com/WisconsinAIVision/UniversalFakeDetect)
+- [FreqNet](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection)
+- [NPR](https://github.com/chuangchuangtan/NPR-DeepfakeDetection)
+- DFFreq
+- [LaDeDa](https://github.com/barcavia/RealTime-DeepfakeDetection-in-the-RealWorld)
+- [AIDE](https://github.com/shilinyan99/AIDE)
+- [SAFE](https://github.com/Ouxiang-Li/SAFE)
+
