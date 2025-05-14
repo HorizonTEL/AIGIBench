@@ -79,14 +79,14 @@ AIGIBench comprehensively tests the performance of the detector and builds a tes
 ## Detection Methods
 We use the official code for all detection codes and make unified modifications to the input and output. The code we use for training in Setting-II and the corresponding pre-trained weights are publicly available at XXX. The following is the corresponding detection code in the paper：
 - [ResNet-50](https://github.com/huggingface/pytorch-image-models/tree/v0.6.12/timm)
-- [CNNDetection](https://github.com/PeterWang512/CNNDetection)
-- [GramNet](https://github.com/liuzhengzhe/Global_Texture_Enhancement_for_Fake_Face_Detection_in_the-Wild)
-- [LGrad](https://github.com/chuangchuangtan/LGrad)
-- [CLIPDetection](https://github.com/WisconsinAIVision/UniversalFakeDetect)
-- [FreqNet](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection)
-- [NPR](https://github.com/chuangchuangtan/NPR-DeepfakeDetection)
-- DFFreq
-- [LaDeDa](https://github.com/barcavia/RealTime-DeepfakeDetection-in-the-RealWorld)
-- [AIDE](https://github.com/shilinyan99/AIDE)
-- [SAFE](https://github.com/Ouxiang-Li/SAFE)
+- [CNNDetection](https://github.com/PeterWang512/CNNDetection): CNN-generated images are surprisingly easy to spot...for now
+- [GramNet](https://github.com/liuzhengzhe/Global_Texture_Enhancement_for_Fake_Face_Detection_in_the-Wild): Global Texture Enhancement for Fake Face Detection in the Wild
+- [LGrad](https://github.com/chuangchuangtan/LGrad): Learning on Gradients: Generalized Artifacts Representation for GAN-Generated Images Detection
+- [CLIPDetection](https://github.com/WisconsinAIVision/UniversalFakeDetect): Towards Universal Fake Image Detectors that Generalize Across Generative Models
+- [FreqNet](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection): FreqNet: A Frequency-domain Image Super-Resolution Network with Dicrete Cosine Transform
+- [NPR](https://github.com/chuangchuangtan/NPR-DeepfakeDetection): Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection
+- DFFreq: Generalizable Deepfake Detection via Effective Local-Global Feature Extraction
+- [LaDeDa](https://github.com/barcavia/RealTime-DeepfakeDetection-in-the-RealWorld): Real-Time Deepfake Detection in the Real-World
+- [AIDE](https://github.com/shilinyan99/AIDE): A Sanity Check for AI-generated Image Detection
+- [SAFE](https://github.com/Ouxiang-Li/SAFE): Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspectives
 
