@@ -1,11 +1,38 @@
-# Is Artificial Intelligence Generated Image Detection a Solved Problem?
-**Ziqiang Li, Jiazhen Yan, Ziwen He, Kai Zeng, Weiwei Jiang, Lizhi Xiong, Zhangjie Fu**
+<div align="center">
+ <br>
+<h1>Is Artificial Intelligence Generated Image Detection a Solved Problem?</h1>
+ 
+[Ziqiang Li](https://scholar.google.com/citations?user=mj5a8WgAAAAJ&hl=zh-CN)<sup>1</sup>, [Jiazhen Yan](https://scholar.google.com/citations?user=QkURh8EAAAAJ&hl=zh-CN)<sup>1</sup>, [Ziwen He](https://scholar.google.com/citations?user=PjkDK9cAAAAJ&hl=zh-CN)<sup>1</sup>, [Kai Zeng](https://scholar.google.com.hk/citations?user=TsI93SIAAAAJ&hl=zh-CN)<sup>2</sup>, [Weiwei Jiang](https://scholar.google.co.jp/citations?user=mbPN0hgAAAAJ&hl=zh-CN)<sup>1</sup>, [Lizhi Xiong](https://scholar.google.com/citations?user=-FzrEP4AAAAJ&hl=zh-CN)<sup>1</sup>, [Zhangjie Fu](https://scholar.google.com/citations?user=fO9NmagAAAAJ&hl=zh-CN)<sup>1‡</sup>
 
-This repository is the official repository of the AIGIBench. 
 
-This repository contains the AIGIBench dataset and the evaluated methods.
+<div class="is-size-6 publication-authors">
+  <p class="footnote">
+    <span class="footnote-symbol"><sup>‡</sup></span>Corresponding author
+  </p>
+</div>
 
- AIGIBench dataset contains two types of training and 25 test subsets. This dataset has the following advantages:
+<sup>1</sup>Nanjing University of Information Science and Technology <sup>2</sup>University of Siena
+<!--
+<p align="center">
+  <a href='https://shilinyan99.github.io/AIDE'>
+    <img src='https://img.shields.io/badge/Project-Page-pink?style=flat&logo=Google%20chrome&logoColor=pink'>
+  </a>
+  <a href='https://arxiv.org/abs/2406.19435'>
+    <img src='https://img.shields.io/badge/Arxiv-2406.19435-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
+  </a>
+  <a href='https://arxiv.org/pdf/2406.19435'>
+    <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
+  </a>
+</p>
+-->
+</div>
+
+
+**This repository is the official repository of the AIGIBench.**
+
+**This repository contains the AIGIBench dataset and the evaluated methods.**
+
+ **AIGIBench** dataset contains two types of training and 25 test subsets. This dataset has the following advantages:
 - Comprehensive generate types: including GAN-based Noise-to-Image Generation, Diffusion for Text-to-Image Generation, GANs for Deepfake, Diffusion for Personalized Generation, and Open-source Platforms.
 - State-of-the-art Generators: MidjourneyV6, Stable Diffusion 3, Imagen, DALLE3, InstantID, FaceSwap, StyleGAN-XL and so on.
 - Completely unknown generation method: Crawl pictures from communities and social media to build datasets CommunityAI & SocialRF, making detection more challenging.
@@ -14,7 +41,7 @@ This repository contains the AIGIBench dataset and the evaluated methods.
 
 If this project helps you, please fork, watch, and give a star to this repository.  
 
-## Dataset
+## 📚Dataset
 The training set and testing set used in the paper can be downloaded in [Huggingface](https://huggingface.co/datasets/HorizonTEL/AIGIBench).
 
 Each folder contains compressed files. After unzip the file, files under the data root directory can be organized as follows.
@@ -76,7 +103,7 @@ AIGIBench comprehensively tests the performance of the detector and builds a tes
 │   ├── SocialRF
 │   │   ├── ...
 ```
-## Detection Methods
+## 🔍Detection Methods
 We use the official code for all detection codes and make unified modifications to the input and output. The code we use for training in Setting-II and the corresponding pre-trained weights are publicly available above. Of course, if you need the code from the original paper, the following is the corresponding detection code in the paper：
 - [ResNet-50](https://github.com/huggingface/pytorch-image-models/tree/v0.6.12/timm): Deep Residual Learning for Image Recognition
 - [CNNDetection](https://github.com/PeterWang512/CNNDetection): CNN-generated images are surprisingly easy to spot...for now
