@@ -42,7 +42,7 @@
 If this project helps you, please fork, watch, and give a star to this repository.  
 
 ## 📚Dataset
-The training set and testing set used in the paper can be downloaded in [Huggingface](https://huggingface.co/datasets/HorizonTEL/AIGIBench).
+The training set and testing set used in the paper can be downloaded on [Huggingface](https://huggingface.co/datasets/HorizonTEL/AIGIBench).
 
 Each folder contains compressed files. After unzip the file, files under the data root directory can be organized as follows.
 ### Train
@@ -104,7 +104,7 @@ AIGIBench comprehensively tests the performance of the detector and builds a tes
 │   │   ├── ...
 ```
 ## 🔍Detection Methods
-We use the official code for all detection codes and make unified modifications to the input and output. The code we use for training in Setting-II and the corresponding pre-trained weights are publicly available above. Of course, if you need the code from the original paper, the following is the corresponding detection code in the paper：
+We use the official code for all detection codes and make unified modifications to the input and output. The code we use for training in Setting-II is publicly available above, the corresponding pre-trained checkpoints are publicly available on [Huggingface](https://huggingface.co/HorizonTEL/AIGIBench). Of course, if you need the code from the original paper, the following is the corresponding detection code in the paper：
 - [ResNet-50](https://github.com/huggingface/pytorch-image-models/tree/v0.6.12/timm): Deep Residual Learning for Image Recognition
 - [CNNDetection](https://github.com/PeterWang512/CNNDetection): CNN-generated images are surprisingly easy to spot...for now
 - [GramNet](https://github.com/liuzhengzhe/Global_Texture_Enhancement_for_Fake_Face_Detection_in_the-Wild): Global Texture Enhancement for Fake Face Detection in the Wild
