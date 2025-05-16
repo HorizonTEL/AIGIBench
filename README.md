@@ -117,3 +117,5 @@ We use the official code for all detection codes and make unified modifications 
 - [AIDE](https://github.com/shilinyan99/AIDE): A Sanity Check for AI-generated Image Detection
 - [SAFE](https://github.com/Ouxiang-Li/SAFE): Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspectives
 
+## Contact
+If you have any question about this project, please feel free to contact 247918horizon@gmail.com
