@@ -85,7 +85,7 @@ We use the official code for all detection codes and make unified modifications 
 - [CLIPDetection](https://github.com/WisconsinAIVision/UniversalFakeDetect): Towards Universal Fake Image Detectors that Generalize Across Generative Models
 - [FreqNet](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection): FreqNet: A Frequency-domain Image Super-Resolution Network with Dicrete Cosine Transform
 - [NPR](https://github.com/chuangchuangtan/NPR-DeepfakeDetection): Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection
-- DFFreq: Generalizable Deepfake Detection via Effective Local-Global Feature Extraction
+- [DFFreq](https://arxiv.org/abs/2501.15253): Generalizable Deepfake Detection via Effective Local-Global Feature Extraction
 - [LaDeDa](https://github.com/barcavia/RealTime-DeepfakeDetection-in-the-RealWorld): Real-Time Deepfake Detection in the Real-World
 - [AIDE](https://github.com/shilinyan99/AIDE): A Sanity Check for AI-generated Image Detection
 - [SAFE](https://github.com/Ouxiang-Li/SAFE): Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspectives
