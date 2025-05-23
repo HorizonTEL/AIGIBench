@@ -12,21 +12,18 @@
 </div>
 
 <sup>1</sup>Nanjing University of Information Science and Technology <sup>2</sup>University of Siena
-<!--
 <p align="center">
-  <a href='https://shilinyan99.github.io/AIDE'>
+  <a href='https://github.com/HorizonTEL/AIGIBench'>
     <img src='https://img.shields.io/badge/Project-Page-pink?style=flat&logo=Google%20chrome&logoColor=pink'>
   </a>
-  <a href='https://arxiv.org/abs/2406.19435'>
+  <a href='https://arxiv.org/abs/2505.12335'>
     <img src='https://img.shields.io/badge/Arxiv-2406.19435-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a>
-  <a href='https://arxiv.org/pdf/2406.19435'>
+  <a href='https://arxiv.org/pdf/2505.12335'>
     <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
   </a>
 </p>
--->
 </div>
-
 
 **This repository is the official repository of the AIGIBench.**
 
