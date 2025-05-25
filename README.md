@@ -114,5 +114,15 @@ We use the official code for all detection codes and make unified modifications 
 - [AIDE](https://github.com/shilinyan99/AIDE): A Sanity Check for AI-generated Image Detection
 - [SAFE](https://github.com/Ouxiang-Li/SAFE): Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspectives
 
+## Citation
+```
+@article{li2025artificial,
+  title={Is Artificial Intelligence Generated Image Detection a Solved Problem?},
+  author={Li, Ziqiang and Yan, Jiazhen and He, Ziwen and Zeng, Kai and Jiang, Weiwei and Xiong, Lizhi and Fu, Zhangjie},
+  journal={arXiv preprint arXiv:2505.12335},
+  year={2025}
+}
+```
+
 ## Contact
 If you have any question about this project, please feel free to contact 247918horizon@gmail.com
