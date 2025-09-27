@@ -121,10 +121,10 @@ We use the official code for all detection codes and make unified modifications 
 
 ## Citation
 ```
-@article{li2025artificial,
+@inproceedings{li2025artificial,
   title={Is Artificial Intelligence Generated Image Detection a Solved Problem?},
   author={Li, Ziqiang and Yan, Jiazhen and He, Ziwen and Zeng, Kai and Jiang, Weiwei and Xiong, Lizhi and Fu, Zhangjie},
-  journal={arXiv preprint arXiv:2505.12335},
+  booktitle={Advances in Neural Information Processing Systems},
   year={2025}
 }
 ```
