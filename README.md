@@ -25,6 +25,11 @@
 </p>
 </div>
 
+## 🔥 News
+* [2025-09-19]🎉🎉🎉 AIGIBench is accepted by NeurIPS 2025 Datasets and Benchmarks.
+
+##
+
 **This repository is the official repository of the AIGIBench.**
 
 **This repository contains the AIGIBench dataset and the evaluated methods.**
