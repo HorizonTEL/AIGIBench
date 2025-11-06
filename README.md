@@ -119,6 +119,28 @@ We use the official code for all detection codes and make unified modifications 
 - [AIDE](https://github.com/shilinyan99/AIDE): A Sanity Check for AI-generated Image Detection
 - [SAFE](https://github.com/Ouxiang-Li/SAFE): Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspectives
 
+## ⏳Detection Results (Continuously updating)
+**To ensure a fair comparison, we retrain all baseline methods on the Setting-II of AIGIBench.**
+| Method       |    Paper                                                                                                      |    Ref    | R.Acc. | F.Acc. | Acc. | A.P. |
+|:------:      |:---------:                                                                                                    |:---------:|:------:|:------:|:----:|:----:|
+| CNNDetection | CNN-generated images are surprisingly easy to spot... for now                                                 | CVPR 2020 |  98.2  |  11.6  | 54.9 | 67.0 |
+| Gram-Net     | Global Texture Enhancement for Fake Face Detection In the Wild                                                | CVPR 2020 |  90.5  |  26.6  | 58.6 | 62.4 |
+| LGrad        | Learning on Gradients: Generalized Artifacts Representation for GAN-Generated Images Detection                | CVPR 2023 |  85.8  |  39.6  | 62.9 | 66.6 |
+| UniFD        | Towards Universal Fake Image Detectors that  Generalize Across Generative Models                              | CVPR 2023 |  73.3  |  71.5  | 72.5 | 75.6 |
+| FreqNet      | Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Learning               | AAAI 2024 |  65.9  |  66.4  | 66.2 | 70.1 |
+| NPR          | Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection    | CVPR 2024 |  93.8  |  41.9  | 67.9 | 73.9 |
+| Ladeda       | Real-Time Deepfake Detection in the Real-World                                                                | Arxiv 2024|  91.7  |  54.9  | 73.4 | 79.3 |
+| DFFreq       | Dual Frequency Branch Framework with Reconstructed Sliding Windows Attention for AI-Generated Image Detection | Arxiv 2025|  91.8  |  58.0  | 75.1 | 82.2 |
+| C2P-CLIP*    | C2P-CLIP: Injecting Category Common Prompt in CLIP to Enhance Generalization in Deepfake Detection            | AAAI 2025 |  93.8  |  49.8  | 71.8 | 82.2 |
+| AIDE         | A Sanity Check for AI-generated Image Detection                                                               | ICLR 2025 |  88.1  |  67.0  | 77.6 | 82.7 |
+| SAFE         | Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspectives              | KDD 2025  |  89.0  |  66.6  | 78.1 | 83.6 |
+| VIB-Net      | Towards Universal AI-Generated Image Detection by Variational Information Bottleneck Network                  | CVPR 2025 |  60.6  |  78.1  | 69.3 | 70.9 |
+| $D^3$        | $D^3$: Scaling Up Deepfake Detection by Learning from Discrepancy                                             | CVPR 2025 |  81.0  |  46.4  | 63.7 | 68.9 |
+| Effort       | Orthogonal Subspace Decomposition for Generalizable AI-Generated Image Detection                              | ICML 2025 |  96.9  |  57.1  | 77.1 | 87.2 |
+| FerretNet    | FerretNet: Efficient Synthetic Image Detection via Local Pixel Dependencies                                   | NIPS 2025 |  96.6  |  61.8  | 79.4 | 85.8 |
+
+
+ 
 ## Citation
 ```
 @inproceedings{li2025artificial,
