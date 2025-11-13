@@ -121,6 +121,8 @@ We use the official code for all detection codes and make unified modifications 
 
 ## ⏳Detection Results (Continuously updating)
 **To ensure a fair comparison, we retrain all baseline methods on the Setting-II of AIGIBench.**
+
+_If your retrained results differ significantly from those shown, please contact us._
 | Method       |    Paper                                                                                                      |    Ref    | R.Acc. | F.Acc. | Acc. | A.P. |
 |:------:      |:---------:                                                                                                    |:---------:|:------:|:------:|:----:|:----:|
 | CNNDetection | CNN-generated images are surprisingly easy to spot... for now                                                 | CVPR 2020 |**98.2**|  11.6  | 54.9 | 67.0 |
@@ -138,6 +140,7 @@ We use the official code for all detection codes and make unified modifications 
 | $D^3$        | $D^3$: Scaling Up Deepfake Detection by Learning from Discrepancy                                             | CVPR 2025 |  81.0  |  46.4  | 63.7 | 68.9 |
 | Effort       | Orthogonal Subspace Decomposition for Generalizable AI-Generated Image Detection                              | ICML 2025 |  96.9  |  57.1  | 77.1 |**87.2**|
 | FerretNet    | FerretNet: Efficient Synthetic Image Detection via Local Pixel Dependencies                                   | NIPS 2025 |  96.6  |  61.8  |**79.4**| 85.8 |
+| LOTA         | LOTA: Bit-Planes Guided AI-Generated Image Detection                                                          | ICCV 2025 |  89.3  |  65.1  | 77.4 | 83.1 |
 
 
  
