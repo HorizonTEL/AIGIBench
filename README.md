@@ -105,6 +105,16 @@ AIGIBench comprehensively tests the performance of the detector and builds a tes
 │   ├── SocialRF
 │   │   ├── ...
 ```
+
+*Note: The test set count in the paper contained some errors, which we are correcting here. Please note that the number of real images and generated images are consistent; only the number of generated images is listed below.*
+| Generator    |   Number  |
+|:------:      |:---------:|
+| CommunityAI  | 6000      |
+| SocialRF     | 3000      |
+| FaceSwap     | 4000      |
+| ImSwap       | 4000      |
+| WFIR         | 1000      |
+
 ## 🔍Detection Methods
 We use the official code for all detection codes and make unified modifications to the input and output. The code we use for training in Setting-II is publicly available above, the corresponding pre-trained checkpoints are publicly available on [Huggingface](https://huggingface.co/HorizonTEL/AIGIBench). Of course, if you need the code from the original paper, the following is the corresponding detection code in the paper：
 - [ResNet-50](https://github.com/huggingface/pytorch-image-models/tree/v0.6.12/timm): Deep Residual Learning for Image Recognition
