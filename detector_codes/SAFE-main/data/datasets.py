@@ -144,12 +144,12 @@ def Get_Transforms(args):
     transform_train, transform_eval = TRANSFORM_DICT[args.transform_mode]['train'], TRANSFORM_DICT[args.transform_mode]['eval']
 
     transform_train.extend([
-        # transforms.RandomHorizontalFlip(p=0.5),
-        transforms.RandomHorizontalFlip(),
-        # transforms.RandomRotation(180),
-        # transforms.ColorJitter(brightness=0.5, contrast=0.5, saturation=0.5),
+        transforms.RandomHorizontalFlip(p=0.5),
+        # transforms.RandomHorizontalFlip(),
+        transforms.RandomRotation(180),
+        transforms.ColorJitter(brightness=0.5, contrast=0.5, saturation=0.5),
         transforms.ToTensor(),
-        # RandomMask(ratio=(0.00, 0.75), patch_size=16, p=0.5),
+        RandomMask(ratio=(0.00, 0.75), patch_size=16, p=0.5),
     ])
 
     transform_eval.append(transforms.ToTensor())
@@ -224,3 +224,4 @@ class TrainDataset(Dataset):
         image = self.transform(image)
 
         return image, torch.tensor(int(targets))
+
