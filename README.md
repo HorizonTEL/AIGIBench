@@ -151,6 +151,7 @@ _If your retrained results differ significantly from those shown, please contact
 | Effort       | Orthogonal Subspace Decomposition for Generalizable AI-Generated Image Detection                              | ICML 2025 |  96.9  |  57.1  | 77.1 |**87.2**|
 | FerretNet    | FerretNet: Efficient Synthetic Image Detection via Local Pixel Dependencies                                   | NIPS 2025 |  96.6  |  61.8  |**79.4**| 85.8 |
 | LOTA         | LOTA: Bit-Planes Guided AI-Generated Image Detection                                                          | ICCV 2025 |  89.3  |  65.1  | 77.4 | 83.1 |
+| BSF          | Beyond Semantic Features: Pixel-level Mapping for Generalized AI-Generated Image Detection                    | AAAI 2026 |  91.5  |  65.6  | 78.8 | 81.1 |
 
 
  
