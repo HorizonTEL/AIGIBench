@@ -124,7 +124,7 @@ We use the official code for all detection codes and make unified modifications 
 - [CLIPDetection](https://github.com/WisconsinAIVision/UniversalFakeDetect): Towards Universal Fake Image Detectors that Generalize Across Generative Models
 - [FreqNet](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection): FreqNet: A Frequency-domain Image Super-Resolution Network with Dicrete Cosine Transform
 - [NPR](https://github.com/chuangchuangtan/NPR-DeepfakeDetection): Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection
-- [DFFreq](https://arxiv.org/abs/2501.15253): Dual Frequency Branch Framework with Reconstructed Sliding Windows Attention for AI-Generated Image Detection
+- [DFFreq](https://github.com/HorizonTEL/DFFreq-main): Dual Frequency Branch Framework with Reconstructed Sliding Windows Attention for AI-Generated Image Detection
 - [LaDeDa](https://github.com/barcavia/RealTime-DeepfakeDetection-in-the-RealWorld): Real-Time Deepfake Detection in the Real-World
 - [AIDE](https://github.com/shilinyan99/AIDE): A Sanity Check for AI-generated Image Detection
 - [SAFE](https://github.com/Ouxiang-Li/SAFE): Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspectives
@@ -142,7 +142,7 @@ _If your retrained results differ significantly from those shown, please contact
 | FreqNet      | Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Learning               | AAAI 2024 |  65.9  |  66.4  | 66.2 | 70.1 |
 | NPR          | Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection    | CVPR 2024 |  93.8  |  41.9  | 67.9 | 73.9 |
 | Ladeda       | Real-Time Deepfake Detection in the Real-World                                                                | Arxiv 2024|  91.7  |  54.9  | 73.4 | 79.3 |
-| DFFreq       | Dual Frequency Branch Framework with Reconstructed Sliding Windows Attention for AI-Generated Image Detection | Arxiv 2025|  91.8  |  58.0  | 75.1 | 82.2 |
+| DFFreq       | Dual Frequency Branch Framework with Reconstructed Sliding Windows Attention for AI-Generated Image Detection | TIFS 2026 |  91.8  |  58.0  | 75.1 | 82.2 |
 | C2P-CLIP*    | C2P-CLIP: Injecting Category Common Prompt in CLIP to Enhance Generalization in Deepfake Detection            | AAAI 2025 |  93.8  |  49.8  | 71.8 | 82.2 |
 | AIDE         | A Sanity Check for AI-generated Image Detection                                                               | ICLR 2025 |  88.1  |  67.0  | 77.6 | 82.7 |
 | SAFE         | Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspectives              | KDD 2025  |  89.0  |  66.6  | 78.1 | 83.6 |
