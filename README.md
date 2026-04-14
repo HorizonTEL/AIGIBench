@@ -152,6 +152,7 @@ _If your retrained results differ significantly from those shown, please contact
 | FerretNet    | FerretNet: Efficient Synthetic Image Detection via Local Pixel Dependencies                                   | NIPS 2025 |  96.6  |  61.8  |**79.4**| 85.8 |
 | LOTA         | LOTA: Bit-Planes Guided AI-Generated Image Detection                                                          | ICCV 2025 |  89.3  |  65.1  | 77.4 | 83.1 |
 | BSF          | Beyond Semantic Features: Pixel-level Mapping for Generalized AI-Generated Image Detection                    | AAAI 2026 |  91.5  |  65.6  | 78.8 | 81.1 |
+| LTD          | Layer Consistency Matters: Elegant Latent Transition Discrepancy for Generalizable Synthetic Image Detection  | CVPR 2026 |  82.0  |  67.7  | 74.9 | 77.6 |
 
 
  
