@@ -154,7 +154,10 @@ _If your retrained results differ significantly from those shown, please contact
 | BSF          | Beyond Semantic Features: Pixel-level Mapping for Generalized AI-Generated Image Detection                    | AAAI 2026 |  91.5  |  65.6  | 78.8 | 81.1 |
 | LTD          | Layer Consistency Matters: Elegant Latent Transition Discrepancy for Generalizable Synthetic Image Detection  | CVPR 2026 |  82.0  |  67.7  | 74.9 | 77.6 |
 
-
+**For specific reasons, in the following method, we directly utilize the official pre-trained weights for inference.**
+| Method       |    Paper                                                                                                      |    Ref    | R.Acc. | F.Acc. | Acc. | A.P. |
+|:------:      |:---------:                                                                                                    |:---------:|:------:|:------:|:----:|:----:|
+| DDA          | Dual Data Alignment Makes AI-Generated Image Detector Easier Generalizable                                    | NIPS 2025 |  93.9  |  69.3  | 81.6 | 90.2 |
  
 ## Citation
 ```
