@@ -128,6 +128,7 @@ We use the official code for all detection codes and make unified modifications 
 - [LaDeDa](https://github.com/barcavia/RealTime-DeepfakeDetection-in-the-RealWorld): Real-Time Deepfake Detection in the Real-World
 - [AIDE](https://github.com/shilinyan99/AIDE): A Sanity Check for AI-generated Image Detection
 - [SAFE](https://github.com/Ouxiang-Li/SAFE): Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspectives
+- [Effort](https://github.com/YZY-stack/Effort-AIGI-Detection): Orthogonal Subspace Decomposition for Generalizable AI-Generated Image Detection
 
 ## ⏳Detection Results (Continuously updating)
 **To ensure a fair comparison, we retrain all baseline methods on the Setting-II of AIGIBench.**
