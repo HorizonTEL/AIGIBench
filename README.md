@@ -147,13 +147,14 @@ _If your retrained results differ significantly from those shown, please contact
 | C2P-CLIP*    | C2P-CLIP: Injecting Category Common Prompt in CLIP to Enhance Generalization in Deepfake Detection            | AAAI 2025 |  93.8  |  49.8  | 71.8 | 82.2 |
 | AIDE         | A Sanity Check for AI-generated Image Detection                                                               | ICLR 2025 |  88.1  |  67.0  | 77.6 | 82.7 |
 | SAFE         | Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspectives              | KDD 2025  |  89.0  |  66.6  | 78.1 | 83.6 |
-| VIB-Net      | Towards Universal AI-Generated Image Detection by Variational Information Bottleneck Network                  | CVPR 2025 |  60.6  |**78.1**| 69.3 | 70.9 |
+| VIB-Net      | Towards Universal AI-Generated Image Detection by Variational Information Bottleneck Network                  | CVPR 2025 |  60.6  |  78.1  | 69.3 | 70.9 |
 | $D^3$        | $D^3$: Scaling Up Deepfake Detection by Learning from Discrepancy                                             | CVPR 2025 |  81.0  |  46.4  | 63.7 | 68.9 |
-| Effort       | Orthogonal Subspace Decomposition for Generalizable AI-Generated Image Detection                              | ICML 2025 |  96.9  |  57.1  | 77.1 |**87.2**|
-| FerretNet    | FerretNet: Efficient Synthetic Image Detection via Local Pixel Dependencies                                   | NIPS 2025 |  96.6  |  61.8  |**79.4**| 85.8 |
+| Effort       | Orthogonal Subspace Decomposition for Generalizable AI-Generated Image Detection                              | ICML 2025 |  96.9  |  57.1  | 77.1 | 87.2 |
+| FerretNet    | FerretNet: Efficient Synthetic Image Detection via Local Pixel Dependencies                                   | NIPS 2025 |  96.6  |  61.8  | 79.4 | 85.8 |
 | LOTA         | LOTA: Bit-Planes Guided AI-Generated Image Detection                                                          | ICCV 2025 |  89.3  |  65.1  | 77.4 | 83.1 |
 | BSF          | Beyond Semantic Features: Pixel-level Mapping for Generalized AI-Generated Image Detection                    | AAAI 2026 |  91.5  |  65.6  | 78.8 | 81.1 |
 | LTD          | Layer Consistency Matters: Elegant Latent Transition Discrepancy for Generalizable Synthetic Image Detection  | CVPR 2026 |  82.0  |  67.7  | 74.9 | 77.6 |
+| DGS-Net      | DGS-Net: Distillation-Guided Gradient Surgery for CLIP Fine-Tuning in AI-Generated Image Detection            | ICML 2026 |  83.0  |**81.5**|**82.3**|**87.8**|
 
 **For specific reasons, in the following method, we directly utilize the official pre-trained weights for inference.**
 | Method       |    Paper                                                                                                      |    Ref    | R.Acc. | F.Acc. | Acc. | A.P. |
