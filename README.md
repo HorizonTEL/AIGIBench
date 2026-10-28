@@ -155,6 +155,7 @@ _If your retrained results differ significantly from those shown, please contact
 | BSF          | Beyond Semantic Features: Pixel-level Mapping for Generalized AI-Generated Image Detection                    | AAAI 2026 |  91.5  |  65.6  | 78.8 | 81.1 |
 | LTD          | Layer Consistency Matters: Elegant Latent Transition Discrepancy for Generalizable Synthetic Image Detection  | CVPR 2026 |  82.0  |  67.7  | 74.9 | 77.6 |
 | DGS-Net      | DGS-Net: Distillation-Guided Gradient Surgery for CLIP Fine-Tuning in AI-Generated Image Detection            | ICML 2026 |  83.0  |**81.5**|**82.3**|**87.8**|
+| NS-Net       | NS-Net: Decoupling CLIP Semantic Information through NULL-Space for Generalizable AI-Generated Image Detection| TMM 2026  |  88.3  |  66.6  | 77.5 | 83.0 |
 
 **For specific reasons, in the following method, we directly utilize the official pre-trained weights for inference.**
 | Method       |    Paper                                                                                                      |    Ref    | R.Acc. | F.Acc. | Acc. | A.P. |
